@@ -1,0 +1,35 @@
+{
+    "cache_name": 'v1',
+    "assets_cache": ["/",
+                     "/settings/",
+                     "/apps/",
+
+                     "/assets/css/styles.css",
+
+                     "/assets/img/arrow.png",
+                     "/assets/img/bg.png",
+                     "/assets/img/dl-icon.png",
+                     "/assets/img/loader-logo.png",
+                     "/assets/img/purusid.png",
+
+                     "/assets/img/icon/fb.webp",
+                     "/assets/img/icon/gear.png",
+                     "/assets/img/icon/insta.webp",
+                     "/assets/img/icon/mail.png",
+                     "/assets/img/icon/pinterest.webp",
+                     "/assets/img/icon/yt.png",
+
+                     "/assets/img/pfp/d3monn.jpg",
+                     "/assets/img/pfp/daiwik.jpg",
+                     "/assets/img/pfp/dnid.jpg",
+                     "/assets/img/pfp/orey.jpg",
+                     "/assets/img/pfp/prathmesh.jpg",
+                     "/assets/img/pfp/rousseau.jpg",
+                     "/assets/img/pfp/tiger.webp",
+                     "/assets/img/pfp/void.jpg",
+                     "/assets/img/pfp/yooche.webp",
+
+                     "/assets/js/script.js",
+                     "/404.html"
+                    ]
+}

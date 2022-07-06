@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuruSid</title>
+    <link rel="stylesheet" href="https://purusid.github.io/cdn/floater/floater.css" id="stylesheet">
+    <script src="https://purusid.github.io/cdn/floater/floater.js"></script>
+    <style>
+        .heading {
+            font-size: 15vmin;
+            color: #eee;
+            background-color: #0003;
+        }
+
+        .subheading {
+            font-size: 4vmin;
+            color: #eee;
+            background-color: #0003;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body onload="init()">
+    <div class="gradient-mask"></div>
+    <div id="loader">
+        <div class="loader-flex-container">
+            <div class="loader">
+                <div></div>
+                <div>
+                    <img src="https://purusid.github.io/cdn/ico/arrow.png" class="up-arrow loader-arrow" style="transform: scale(var(--init-scale));">
+                </div>
+                <div></div>
+
+                <div style="transform: rotateZ(-90deg);">
+                    <img src="https://purusid.github.io/cdn/ico/arrow.png" class="lt-arrow loader-arrow" style="transform: scale(var(--init-scale));">
+                </div>
+                <div></div>
+                <div style="transform: rotateZ(90deg);">
+                    <img src="https://purusid.github.io/cdn/ico/arrow.png" class="rt-arrow loader-arrow" style="transform: scale(var(--init-scale));">
+                </div>
+
+                <div></div>
+                <div style="transform: rotateZ(180deg);">
+                    <img src="https://purusid.github.io/cdn/ico/arrow.png" class="dw-arrow loader-arrow" style="transform: scale(var(--init-scale));">
+                </div>
+                <div></div>
+            </div>
+        </div>
+        <div class="loader-flex-container" style="background-color: #0000;">
+            <img src="https://purusid.github.io/cdn/ico/loader-logo.png" style="height: 20vmin; width:20vmin">
+        </div>
+    </div>
+    <a href="/">
+        <div class="flex-container">
+            <div style="display: block;text-align: center;">
+                <span class="heading">404 - PuruSid</span>
+                <br>
+                <span class="subheading">
+                    The Piece Of Code Was Not Found. Click To Go Back.
+                </span>
+            </div>
+        </div>
+    </a>
+</body>
+
+</html>
