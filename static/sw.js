@@ -15,6 +15,6 @@ self.addEventListener('fetch', async function (e) {
         console.log('serving cached request: ' + e.request.url);
         return rfc;
     }
-    console.log('fetching from network: ' + e.request.url)
+    console.log('fetching from network: ' + e.request.url);
     return fetch(request);
 });
