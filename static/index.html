@@ -8,66 +8,6 @@
     <title>PuruSidDev</title>
     <link rel="stylesheet" href="https://purusidcontent.github.io/floater/floater.css" id="stylesheet">
     <script src="https://purusidcontent.github.io/floater/floater.js"></script>
-    <style>
-        .top-bar {
-            position: sticky;
-            top: 0;
-            left: 0;
-            background-color: #e1ffff;
-        }
-
-        .alternating-grid-list>*:nth-child(odd) {
-            display: grid;
-            grid-template-columns: calc(20vw - 2vmin) calc(60vw - 2vmin);
-        }
-
-        .alternating-grid-list>*:nth-child(even) {
-            display: grid;
-            grid-template-columns: calc(60vw - 2vmin) calc(20vw - 2vmin);
-        }
-
-        .alternating-grid-list {
-            display: grid;
-            grid-gap: 2vmin;
-            grid-template-columns: 80vw;
-            width: 80vw;
-        }
-
-        .list-icon {
-            background-color: #eee;
-            width: 17vw;
-            height: 17vw;
-            border-radius: 3vmin;
-            transition: all .2s linear;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #0000;
-        }
-
-        .list-icon:hover>img {
-            width: calc(17vw - 2vmin);
-            height: calc(17vw - 2vmin);
-        }
-
-        .list-icon>img {
-            width: calc(17vw - 7vmin);
-            height: calc(17vw - 7vmin);
-            margin: 2vmin;
-            border-radius: 3vmin;
-            border: solid 1px #fff;
-            background-color: #eee;
-        }
-
-        .list-desc {
-            width: calc(60vw - 3vmin);
-            background-color: #0008;
-            font-size: 1.255em;
-            padding: 3vmin;
-            color: #fff;
-        }
-
-    </style>
 </head>
 
 <body onload="init()">
